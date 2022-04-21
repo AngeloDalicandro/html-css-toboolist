@@ -11,7 +11,7 @@
 
 body {
     /* background-color: #f6f8f9; */
-    background-color: grey;
+    background-color: #f6f8f9;
 }
 
 /* header */
@@ -68,8 +68,8 @@ main {
 }
 
 hr {
-    color: lightgrey;
-    border-top: 2px solid lightgray;
+    color: #f6f8f9;
+    border-top: 2px solid #f6f8f9;
 }
 
 /* list */
@@ -77,12 +77,14 @@ hr {
 ul {
     list-style-type: none;
     font-weight: 600;
+    font-size: 18px;
     line-height: 40px;
+    vertical-align: middle;
 }
 
 h2 {
     display: inline-block;
-    vertical-align: middle;
+    font-size: 22px;
 }
 
 .item-margin {
@@ -95,4 +97,40 @@ h2 {
 
 .red {
     color: red;
+}
+
+/* boxes */
+
+.box {
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    height: 30px;
+    background-color: #45abea;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 13px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0% 2%;
+}
+
+.c-1 {
+    background-color: #9c72e4;
+}
+
+.c-2 {
+    background-color: #64c0a9;
+}
+
+.c-3 {
+    background-color: #f29e33;
+}
+
+.c-4 {
+    background-color: #d863a1;
+}
+
+.c-5 {
+    background-color: #b0c926;
 }
