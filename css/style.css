@@ -14,17 +14,6 @@ body {
     background-color: grey;
 }
 
-/* temporaneo */
-.container {
-    width: 50%;
-    height: 750px;
-    margin: auto;
-    background-color: white;
-    margin-top: 50px;
-    margin-bottom: 30px;
-    border-radius: 15px;
-}
-
 /* header */
 
 header {
@@ -44,4 +33,44 @@ h1 {
 }
 
 /* main */
+
+main {
+    width: 50%;
+    height: 750px;
+    margin: auto;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.container {
+    padding: 25px 50px;
+}
+
+/* buttons */
+
+.btn {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    font-weight: 600;
+    color: lightgrey;
+    background-color: white;
+}
+
+.b-1 {
+     background-color: #47adf1;
+     color: white;
+     border: 0px;
+}
+
+hr {
+    color: lightgrey;
+    border-top: 2px solid lightgray;
+}
+
+/* list */
 
