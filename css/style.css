@@ -74,3 +74,25 @@ hr {
 
 /* list */
 
+ul {
+    list-style-type: none;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+h2 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.item-margin {
+    margin-top: 20px;
+} 
+
+.green {
+    color: lightgreen;
+}
+
+.red {
+    color: red;
+}
