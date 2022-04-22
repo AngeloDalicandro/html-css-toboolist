@@ -97,6 +97,7 @@ h2 {
     border-radius: 50%;
     line-height: 20px;
     border: 1px solid white;
+    text-align: center;
 }
 
 .green {
@@ -107,6 +108,7 @@ h2 {
 .red {
     color: red;
     border-color: red;
+    font-size: 12px;
 }
 
 /* boxes */
